@@ -1,0 +1,19 @@
+{
+  "name": "todocli",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "dev-file": "nodemon app-with-file.js",
+    "start-file": "node app-with-file.js"
+  },
+  "keywords": [],
+  "author": "Jorge",
+  "license": "MIT",
+  "description": "Proyectos Node",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
